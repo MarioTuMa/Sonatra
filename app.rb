@@ -1,4 +1,4 @@
 require 'sinatra'
-get '/' do
+get '/txt.txt' do
     'Put this in your pipe & smoke it!'
 end
