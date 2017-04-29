@@ -2,7 +2,7 @@ require "open-uri"
 require 'nokogiri'
 require 'mechanize'
 require "json"
-word="backpack"
+word=ARGV[0]
 doc=Nokogiri::HTML(open("https://www.bradsdeals.com/search?query="+word))
 #puts doc.class
 #p doc.css(".col")
